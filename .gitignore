@@ -1,0 +1,6 @@
+*.jpg
+venv/
+env/
+.log
+.vscode/
+.idea/
