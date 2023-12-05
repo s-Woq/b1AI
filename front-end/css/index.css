@@ -23,7 +23,7 @@ body{
 }
 .banner-title{
     z-index: 2;
-    opacity: 1;
+    /* opacity: ; */
     color:black;
     text-shadow: 10px;
     font-family:Dosis ;
@@ -33,14 +33,30 @@ body{
     
 }
 main{
-    background-image:url("../img/pexels.jpg");
+    /* background-image:url("../img/pexels.jpg"); */
     background-size:contain ;
     background-repeat: no-repeat;
     width: 100vw;
     height: 80vw;
     top:0px;
-    position: absolute;
     opacity: .7;
-    border:1px solid red;
+    /* border:1px solid green; */
     z-index: -1;
+}
+footer{
+    width:100vw;
+    height: 20vw;
+    /* border:1px solid red; */
+    position: relative;
+    bottom:14em;
+    background-color:rgba(20,20,20,0.3);
+    text-align: center;
+}
+.image_bg{
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top:0;
+    z-index: -10;
+    border:1px solid green;
 }
